@@ -7,19 +7,8 @@
  * depending on specificity.
  *
  * Consider organizing styles into separate files for maintainability.
+ *
+ * = require_tree .
+ * = require_self
  */
  
-// app/assets/stylesheets/application.scss
-
-// 1. 부트스트랩 Sprockets 헬퍼 (Sprockets 연동)
-//    반드시 가장 먼저 임포트되어야 합니다.
-@import "bootstrap-sprockets";
-
-// 2. 부트스트랩 기본 스타일
-@import "bootstrap";
-
-// 3. 사용자 정의 스타일 (custom.scss)
-//    부트스트랩 스타일을 덮어쓰려면 가장 마지막에 임포트합니다.
-@import "custom"; 
-
-// (만약 다른 scss 파일이 있다면 여기에 추가)
