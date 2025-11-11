@@ -72,4 +72,5 @@ group :test do
   gem "selenium-webdriver"
   gem "minitest-reporters"
   gem "guard-minitest"
+  gem "rails-controller-testing"
 end
